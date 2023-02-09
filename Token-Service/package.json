@@ -1,0 +1,16 @@
+{
+  "name": "token-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/tokenService.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.19.2",
+    "dotenv": "^16.0.3"
+  }
+}
