@@ -1,0 +1,17 @@
+{
+  "name": "multi-signature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:successCase": "node scripts/multiSigAccountSuccessCase.js",
+    "start:failureCase": "node scripts/multiSigAccountFailureCase.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.19.2",
+    "dotenv": "^16.0.3"
+  }
+}
